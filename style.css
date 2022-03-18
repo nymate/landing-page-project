@@ -49,26 +49,110 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 400px;
     flex: 1;
 }
 
 .naxos-harbour {
-    width: 400px;
+    min-width: 400px;
     flex: 1;
 }
 
-button {
+.btn1 {
     background-color: #3882f6;
     align-self: flex-start;
     font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: 1px #3882f6;
+    padding: 10px 30px;
 }
 
 .information {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 800;
+    color: #1F2937;
     text-align: center;
+    padding: 30px 300px;
 }
 
-.card {
+.cards {
+    padding: 30px 0px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+} 
+
+.card, .pic{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    flex: 1 0 auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.pic {
+    margin-bottom: 10px;
+}
+
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color:#e5e7eb;
+    color: #1F2937; 
+    padding: 70px 350px 0px;
+    align-items: center;
+}
+
+em {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    padding-bottom: 44px;
+    font-size: 22px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 16px;
+    padding: 22px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    margin: 60px 300px;
+    padding: 40px 60px;
+    justify-content: space-between;
+    align-items: center;
     font-size: 18px;
 }
+
+.btn2 {
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+.act {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
